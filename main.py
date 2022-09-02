@@ -6,14 +6,7 @@ from src import printcolors as pc
 from src import artwork
 import sys
 import signal
-
-is_windows = False
-
-try:
-    import gnureadline  
-except: 
-    is_windows = True
-    import pyreadline
+import pyreadline
 
 
 def printlogo():
